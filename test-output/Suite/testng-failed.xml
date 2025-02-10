@@ -7,15 +7,15 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="qa.tests.Testcase1">
+      <class name="qa.tests.Testcase2">
         <methods>
-          <include name="afterTest"/>
           <include name="beforeMethodMethod"/>
-          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="enterReviewDetails"/>
           <include name="beforeTestMethod"/>
-          <include name="samplwMethodforEnteringCredentials"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- qa.tests.Testcase1 -->
+      </class> <!-- qa.tests.Testcase2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

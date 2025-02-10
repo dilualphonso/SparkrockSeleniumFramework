@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 19 15:18:14 EST 2024</td>
+<td>Started on:</td><td>Mon Feb 10 15:14:57 EST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3939 ms)</td>
+<tr><td>Total time:</td><td>52 seconds (52249 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='qa.tests.Testcase1.samplwMethodforEnteringCredentials()'><b>samplwMethodforEnteringCredentials</b><br>Test class: qa.tests.Testcase1</td>
+<td title='qa.tests.Testcase2.enterReviewDetails()'><b>enterReviewDetails</b><br>Test class: qa.tests.Testcase2</td>
 <td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=131.0.6778.69)
+  (Session info: chrome=133.0.6943.59)
 Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [501af3f2da9075514658de4a84f534ec, sendKeysToElement {id=f.43E52909219D4FC12F8AAFD45063A779.d.222861AAFCD8F7AEE42DF7FCCBAF7FC0.e.9, value=[Ljava.lang.CharSequence;@95bb2a2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.69, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\samba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54750/devtoo..., se:cdpVersion: 131.0.6778.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (501af3f2da9075514658de4a84f534ec)] -&gt; xpath: //*[@id=&quot;root&quot;]/section/div/section/form/div/div[2]/div[2]/div]
-Session ID: 501af3f2da9075514658de4a84f534ec
+Command: [d707d9794304d283203debd992cd8892, clickElement {id=f.C116BEFF31A6833E6BA5A63076C6BD96.d.271E2E42DEEB61E665F10D99A45E55BF.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.59, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\samba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63181/devtoo..., se:cdpVersion: 133.0.6943.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d707d9794304d283203debd992cd8892)] -&gt; xpath: //*[@id=&quot;root&quot;]/section/div/section/form/div/div[2]/div[2]/div/label[3]/input]
+Session ID: d707d9794304d283203debd992cd8892
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -94,20 +94,20 @@ Session ID: 501af3f2da9075514658de4a84f534ec
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-	at pageEvents.LoginPageEvents.enterCredentials(LoginPageEvents.java:17)
-	at qa.tests.Testcase1.samplwMethodforEnteringCredentials(Testcase1.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pageEvents.ReviewAddingEvent.enterReviewDetails(ReviewAddingEvent.java:27)
+	at qa.tests.Testcase2.enterReviewDetails(Testcase2.java:22)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1970707120", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1970707120'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=131.0.6778.69)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2109615807", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2109615807'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=133.0.6943.59)
 Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [501af3f2da9075514658de4a84f534ec, sendKeysToElement {id=f.43E52909219D4FC12F8AAFD45063A779.d.222861AAFCD8F7AEE42DF7FCCBAF7FC0.e.9, value=[Ljava.lang.CharSequence;@95bb2a2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.69, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\samba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54750/devtoo..., se:cdpVersion: 131.0.6778.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (501af3f2da9075514658de4a84f534ec)] -&gt; xpath: //*[@id=&quot;root&quot;]/section/div/section/form/div/div[2]/div[2]/div]
-Session ID: 501af3f2da9075514658de4a84f534ec
+Command: [d707d9794304d283203debd992cd8892, clickElement {id=f.C116BEFF31A6833E6BA5A63076C6BD96.d.271E2E42DEEB61E665F10D99A45E55BF.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.59, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\samba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63181/devtoo..., se:cdpVersion: 133.0.6943.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d707d9794304d283203debd992cd8892)] -&gt; xpath: //*[@id=&quot;root&quot;]/section/div/section/form/div/div[2]/div[2]/div/label[3]/input]
+Session ID: d707d9794304d283203debd992cd8892
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -119,9 +119,9 @@ Session ID: 501af3f2da9075514658de4a84f534ec
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-	at pageEvents.LoginPageEvents.enterCredentials(LoginPageEvents.java:17)
-	at qa.tests.Testcase1.samplwMethodforEnteringCredentials(Testcase1.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pageEvents.ReviewAddingEvent.enterReviewDetails(ReviewAddingEvent.java:27)
+	at qa.tests.Testcase2.enterReviewDetails(Testcase2.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -149,8 +149,8 @@ Session ID: 501af3f2da9075514658de4a84f534ec
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>0</td>
-<td>qa.tests.Testcase1@7fd50002</td></tr>
+<td>29</td>
+<td>qa.tests.Testcase2@31e4bb20</td></tr>
 </table><p>
 </body>
 </html>

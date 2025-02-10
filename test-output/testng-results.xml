@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-19T15:18:14 EST" name="Suite" finished-at="2024-11-19T15:18:18 EST" duration-ms="3939">
+  <suite started-at="2025-02-10T15:14:57 EST" name="Suite" finished-at="2025-02-10T15:15:49 EST" duration-ms="52249">
     <groups>
     </groups>
-    <test started-at="2024-11-19T15:18:14 EST" name="Test" finished-at="2024-11-19T15:18:18 EST" duration-ms="3939">
-      <class name="qa.tests.Testcase1">
-        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testcase1@7fd50002]" started-at="2024-11-19T15:18:14 EST" name="beforeTestMethod" finished-at="2024-11-19T15:18:15 EST" duration-ms="360" status="PASS">
+    <test started-at="2025-02-10T15:14:57 EST" name="Test" finished-at="2025-02-10T15:15:49 EST" duration-ms="52249">
+      <class name="qa.tests.Testcase2">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testcase2@31e4bb20]" started-at="2025-02-10T15:14:57 EST" name="beforeTestMethod" finished-at="2025-02-10T15:14:59 EST" duration-ms="1820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@7fd50002]" started-at="2024-11-19T15:18:15 EST" name="beforeMethodMethod" finished-at="2024-11-19T15:18:16 EST" duration-ms="1903" status="PASS">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase2@31e4bb20]" started-at="2025-02-10T15:14:59 EST" name="beforeMethodMethod" finished-at="2025-02-10T15:15:15 EST" duration-ms="16286" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,36 +20,36 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void qa.tests.Testcase1.samplwMethodforEnteringCredentials()]]>
+                <![CDATA[public void qa.tests.Testcase2.enterReviewDetails()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodMethod -->
-        <test-method signature="samplwMethodforEnteringCredentials()[pri:0, instance:qa.tests.Testcase1@7fd50002]" started-at="2024-11-19T15:18:16 EST" name="samplwMethodforEnteringCredentials" finished-at="2024-11-19T15:18:17 EST" duration-ms="892" status="FAIL">
+        <test-method signature="enterReviewDetails()[pri:0, instance:qa.tests.Testcase2@31e4bb20]" started-at="2025-02-10T15:15:15 EST" name="enterReviewDetails" finished-at="2025-02-10T15:15:45 EST" duration-ms="29324" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
-  (Session info: chrome=131.0.6778.69)
+  (Session info: chrome=133.0.6943.59)
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [501af3f2da9075514658de4a84f534ec, sendKeysToElement {id=f.43E52909219D4FC12F8AAFD45063A779.d.222861AAFCD8F7AEE42DF7FCCBAF7FC0.e.9, value=[Ljava.lang.CharSequence;@95bb2a2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.69, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\samba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54750/devtoo..., se:cdpVersion: 131.0.6778.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (501af3f2da9075514658de4a84f534ec)] -> xpath: //*[@id="root"]/section/div/section/form/div/div[2]/div[2]/div]
-Session ID: 501af3f2da9075514658de4a84f534ec]]>
+Command: [d707d9794304d283203debd992cd8892, clickElement {id=f.C116BEFF31A6833E6BA5A63076C6BD96.d.271E2E42DEEB61E665F10D99A45E55BF.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.59, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\samba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63181/devtoo..., se:cdpVersion: 133.0.6943.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d707d9794304d283203debd992cd8892)] -> xpath: //*[@id="root"]/section/div/section/form/div/div[2]/div[2]/div/label[3]/input]
+Session ID: d707d9794304d283203debd992cd8892]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=131.0.6778.69)
+  (Session info: chrome=133.0.6943.59)
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [501af3f2da9075514658de4a84f534ec, sendKeysToElement {id=f.43E52909219D4FC12F8AAFD45063A779.d.222861AAFCD8F7AEE42DF7FCCBAF7FC0.e.9, value=[Ljava.lang.CharSequence;@95bb2a2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.69, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\samba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54750/devtoo..., se:cdpVersion: 131.0.6778.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (501af3f2da9075514658de4a84f534ec)] -> xpath: //*[@id="root"]/section/div/section/form/div/div[2]/div[2]/div]
-Session ID: 501af3f2da9075514658de4a84f534ec
+Command: [d707d9794304d283203debd992cd8892, clickElement {id=f.C116BEFF31A6833E6BA5A63076C6BD96.d.271E2E42DEEB61E665F10D99A45E55BF.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.59, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\samba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63181/devtoo..., se:cdpVersion: 133.0.6943.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d707d9794304d283203debd992cd8892)] -> xpath: //*[@id="root"]/section/div/section/form/div/div[2]/div[2]/div/label[3]/input]
+Session ID: d707d9794304d283203debd992cd8892
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -61,9 +61,9 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at pageEvents.LoginPageEvents.enterCredentials(LoginPageEvents.java:17)
-at qa.tests.Testcase1.samplwMethodforEnteringCredentials(Testcase1.java:19)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pageEvents.ReviewAddingEvent.enterReviewDetails(ReviewAddingEvent.java:27)
+at qa.tests.Testcase2.enterReviewDetails(Testcase2.java:22)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -95,23 +95,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- samplwMethodforEnteringCredentials -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@7fd50002]" started-at="2024-11-19T15:18:18 EST" name="afterMethod" finished-at="2024-11-19T15:18:18 EST" duration-ms="158" status="PASS">
+        </test-method> <!-- enterReviewDetails -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase2@31e4bb20]" started-at="2025-02-10T15:15:46 EST" name="afterMethod" finished-at="2025-02-10T15:15:46 EST" duration-ms="37" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=samplwMethodforEnteringCredentials status=FAILURE method=Testcase1.samplwMethodforEnteringCredentials()[pri:0, instance:qa.tests.Testcase1@7fd50002] output={null}]]]>
+                <![CDATA[[TestResult name=enterReviewDetails status=FAILURE method=Testcase2.enterReviewDetails()[pri:0, instance:qa.tests.Testcase2@31e4bb20] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testcase1@7fd50002]" started-at="2024-11-19T15:18:18 EST" name="afterTest" finished-at="2024-11-19T15:18:18 EST" duration-ms="342" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testcase2@31e4bb20]" started-at="2025-02-10T15:15:46 EST" name="afterTest" finished-at="2025-02-10T15:15:49 EST" duration-ms="3491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- qa.tests.Testcase1 -->
+      </class> <!-- qa.tests.Testcase2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
