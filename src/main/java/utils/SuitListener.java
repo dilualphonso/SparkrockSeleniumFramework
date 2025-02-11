@@ -14,7 +14,7 @@ import org.testng.annotations.ITestAnnotation;
 import com.github.dockerjava.transport.DockerHttpClient.Request.Method;
 
 import base.baseTest;
-
+//When a test fails, a screenshot is taken and saved in the "screenshots" folder with the test method's name as the filename
 public class SuitListener implements ITestListener,IAnnotationTransformer {
 	
 	public void onTestFailure (ITestResult result) {
@@ -31,3 +31,4 @@ public class SuitListener implements ITestListener,IAnnotationTransformer {
 	 annotation.setRetryAnalyzer(RetryAnalyzer.class);
  }
 }
+//IAnnotationTransformer, you can modify the test annotations at runtime before TestNG executes the test methods

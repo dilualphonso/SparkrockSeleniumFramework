@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-10T15:14:57 EST" name="Suite" finished-at="2025-02-10T15:15:49 EST" duration-ms="52249">
+  <suite started-at="2025-02-11T02:12:09 EST" name="Suite" finished-at="2025-02-11T02:12:16 EST" duration-ms="7044">
     <groups>
     </groups>
-    <test started-at="2025-02-10T15:14:57 EST" name="Test" finished-at="2025-02-10T15:15:49 EST" duration-ms="52249">
+    <test started-at="2025-02-11T02:12:09 EST" name="Test" finished-at="2025-02-11T02:12:16 EST" duration-ms="7044">
       <class name="qa.tests.Testcase2">
-        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testcase2@31e4bb20]" started-at="2025-02-10T15:14:57 EST" name="beforeTestMethod" finished-at="2025-02-10T15:14:59 EST" duration-ms="1820" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testcase2@2f6e28bc]" started-at="2025-02-11T02:12:09 EST" name="beforeTestMethod" finished-at="2025-02-11T02:12:09 EST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase2@31e4bb20]" started-at="2025-02-10T15:14:59 EST" name="beforeMethodMethod" finished-at="2025-02-10T15:15:15 EST" duration-ms="16286" status="PASS">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase2@2f6e28bc]" started-at="2025-02-11T02:12:09 EST" name="beforeMethodMethod" finished-at="2025-02-11T02:12:11 EST" duration-ms="2262" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,87 +27,53 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodMethod -->
-        <test-method signature="enterReviewDetails()[pri:0, instance:qa.tests.Testcase2@31e4bb20]" started-at="2025-02-10T15:15:15 EST" name="enterReviewDetails" finished-at="2025-02-10T15:15:45 EST" duration-ms="29324" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=133.0.6943.59)
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d707d9794304d283203debd992cd8892, clickElement {id=f.C116BEFF31A6833E6BA5A63076C6BD96.d.271E2E42DEEB61E665F10D99A45E55BF.e.20}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.59, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\samba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63181/devtoo..., se:cdpVersion: 133.0.6943.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (d707d9794304d283203debd992cd8892)] -> xpath: //*[@id="root"]/section/div/section/form/div/div[2]/div[2]/div/label[3]/input]
-Session ID: d707d9794304d283203debd992cd8892]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=133.0.6943.59)
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d707d9794304d283203debd992cd8892, clickElement {id=f.C116BEFF31A6833E6BA5A63076C6BD96.d.271E2E42DEEB61E665F10D99A45E55BF.e.20}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.59, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\samba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63181/devtoo..., se:cdpVersion: 133.0.6943.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (d707d9794304d283203debd992cd8892)] -> xpath: //*[@id="root"]/section/div/section/form/div/div[2]/div[2]/div/label[3]/input]
-Session ID: d707d9794304d283203debd992cd8892
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at pageEvents.ReviewAddingEvent.enterReviewDetails(ReviewAddingEvent.java:27)
-at qa.tests.Testcase2.enterReviewDetails(Testcase2.java:22)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="enterReviewDetails()[pri:1, instance:qa.tests.Testcase2@2f6e28bc]" started-at="2025-02-11T02:12:11 EST" name="enterReviewDetails" finished-at="2025-02-11T02:12:13 EST" duration-ms="1494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterReviewDetails -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase2@31e4bb20]" started-at="2025-02-10T15:15:46 EST" name="afterMethod" finished-at="2025-02-10T15:15:46 EST" duration-ms="37" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase2@2f6e28bc]" started-at="2025-02-11T02:12:13 EST" name="afterMethod" finished-at="2025-02-11T02:12:13 EST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enterReviewDetails status=FAILURE method=Testcase2.enterReviewDetails()[pri:0, instance:qa.tests.Testcase2@31e4bb20] output={null}]]]>
+                <![CDATA[[TestResult name=enterReviewDetails status=SUCCESS method=Testcase2.enterReviewDetails()[pri:1, instance:qa.tests.Testcase2@2f6e28bc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testcase2@31e4bb20]" started-at="2025-02-10T15:15:46 EST" name="afterTest" finished-at="2025-02-10T15:15:49 EST" duration-ms="3491" status="PASS">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase2@2f6e28bc]" started-at="2025-02-11T02:12:13 EST" name="beforeMethodMethod" finished-at="2025-02-11T02:12:14 EST" duration-ms="1042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase2.enterReviewDetailsWithEmptyComment()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="enterReviewDetailsWithEmptyComment()[pri:2, instance:qa.tests.Testcase2@2f6e28bc]" started-at="2025-02-11T02:12:14 EST" name="enterReviewDetailsWithEmptyComment" finished-at="2025-02-11T02:12:15 EST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterReviewDetailsWithEmptyComment -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase2@2f6e28bc]" started-at="2025-02-11T02:12:15 EST" name="afterMethod" finished-at="2025-02-11T02:12:15 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterReviewDetailsWithEmptyComment status=SUCCESS method=Testcase2.enterReviewDetailsWithEmptyComment()[pri:2, instance:qa.tests.Testcase2@2f6e28bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testcase2@2f6e28bc]" started-at="2025-02-11T02:12:15 EST" name="afterTest" finished-at="2025-02-11T02:12:16 EST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

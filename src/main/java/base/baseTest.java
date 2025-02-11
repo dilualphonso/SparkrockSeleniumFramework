@@ -45,7 +45,7 @@ public class baseTest {
         sparkReporter.config().setDocumentTitle("Automation Reports");
         sparkReporter.config().setReportName("Name of the Report Comes here ");
     }
-
+// I have setup the webdriver and browser
     @BeforeMethod
     @Parameters("browser")
     public void beforeMethodMethod(String browser, Method testMethod) {
@@ -55,7 +55,7 @@ public class baseTest {
         driver.get(Constants.url);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
-
+//This method checks the status of the test (PASS, FAIL, or SKIP) 
     @AfterMethod
     public void afterMethod(ITestResult result) {
         if (result.getStatus() == ITestResult.FAILURE) {
@@ -66,16 +66,18 @@ public class baseTest {
         } else if (result.getStatus() == ITestResult.SUCCESS) {
             logger.log(Status.PASS, MarkupHelper.createLabel(result.getName() + " Testcase PASSED", ExtentColor.GREEN));
         }
-//
-//        if (driver != null) {
-//            driver.quit();
-//        }
-    }
 
+//       if (driver != null) {
+//           driver.quit();
+//        }
+        }
+    //After all tests are done, this ensures the report is finalized and saved
     @AfterTest
     public void afterTest() {
         extent.flush();
     }
+    
+    // This method sets up the WebDriver based on the browser passed 
 
     public void setupDriver(String browser) {
         if (browser.equalsIgnoreCase("chrome")) {
