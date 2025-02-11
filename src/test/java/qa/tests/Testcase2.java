@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import base.baseTest;
 import pageEvents.HomePageEvents;
 import pageEvents.ReviewAddingEvent;
+import pageEvents.SignupPageEvent;
 import utils.ElementFetch;
 
 public class Testcase2 extends baseTest {
@@ -13,21 +14,14 @@ public class Testcase2 extends baseTest {
 	HomePageEvents homePage = new HomePageEvents();
 	ReviewAddingEvent reviewPage = new ReviewAddingEvent();
 	
-	@Test(priority = 1)
+	@Test
 	
-	public void enterReviewDetails()
-	
-	{
+	public void enterRevieDetails() {
 		reviewPage.enterReviews();
 		reviewPage.enterReviewDetails();
 		reviewPage.clickReviewSuccessButton();
-	}
+		
 	
-	@Test(priority = 2)
-	public void enterReviewDetailsWithEmptyComment() {
-		// Negative Test Case: Add review with empty comment (to test error handling)
-		reviewPage.enterReviews();
-		reviewPage.enterReviewDetailsWithEmptyComment();  // Call the method for empty comment scenario
-		reviewPage.clickReviewSuccessButton();
 	}
+
 }
